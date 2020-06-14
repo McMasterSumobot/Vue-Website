@@ -1,6 +1,6 @@
 <template>
   <div>
-    About Page Here
+    Sign Up Page Here
   </div>
 </template>
 

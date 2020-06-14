@@ -1,6 +1,6 @@
 <template>
   <div>
-    About Page Here
+    Competitions Page Here
   </div>
 </template>
 
