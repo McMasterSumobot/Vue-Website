@@ -2,7 +2,7 @@
   <div id="app">
     <div>
       <b-navbar toggleable="md" type="dark" variant="danger">
-        <b-navbar-brand to="/">NavBar</b-navbar-brand>
+        <b-navbar-brand to="/">SumoBot</b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
           <!-- Right aligned nav items -->
