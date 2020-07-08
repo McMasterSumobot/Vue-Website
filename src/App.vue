@@ -1,7 +1,6 @@
 <template>
-  <div id="app">
-    <div>
-      <b-navbar toggleable="md" type="dark" variant="danger">
+  <div id="app" style="position:relative;">
+      <b-navbar toggleable="md" type="dark" sticky style=" background-color: maroon;">
         <b-navbar-brand to="/">SumoBot</b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
@@ -17,30 +16,22 @@
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
-    </div>
     <router-view />
   </div>
 </template>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.navbar-dark .navbar-nav .nav-link{
+  color:white!important;
+  text-shadow: #000 0px 0px 1px;
 }
 </style>
